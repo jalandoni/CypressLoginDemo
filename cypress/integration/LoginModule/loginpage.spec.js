@@ -11,7 +11,7 @@ describe('Validate login',() =>{
         cy.visit('http://35.77.45.137:8080/exam/login') 
     })
     
-    it('Validate credentials',()=>{
+    it('Validate credentials',()=>{ 
         login.submit() 
     })
 
